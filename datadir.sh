@@ -36,6 +36,7 @@ chmod 777 ~/fisco/nodes/127.0.0.1/fisco-bcos
 
 cd ~/fisco && bash nodes/127.0.0.1/start_all.sh
 
+echo "-------------------------------部署合约MainData--------------------------------------"
 echo "transaction hash: 0x002ab26c9ca4003197585503ccfd4ba1a1fcf03a1604ba5ab555c43251cabf1c"
 echo "contract address: 0xbde892c99bdeb64c90962c90ab23b305f42969c6"
 echo "currentAccount: 0xf5eaba15967aca0064e08e47756f7aabbb645177"
