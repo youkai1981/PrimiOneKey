@@ -29,7 +29,7 @@ else
     exit
 fi
 
-mv PrimiHubDataDIR/* ./ && rm -rf DataDIR
+mv PrimiHubDataDIR/* ./ && rm -rf PrimiHubDataDIR
 
 chmod 777 ~/fisco/nodes/127.0.0.1/*.sh
 chmod 777 ~/fisco/nodes/127.0.0.1/fisco-bcos
